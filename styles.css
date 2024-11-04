@@ -1,0 +1,154 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  
+  .game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #00796b;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .status {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #00796b;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: 2px solid #004d40;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s ease;
+  }
+  
+  .square-X {
+    background-color: #ff5252;
+    color: white;
+  }
+  
+  .square-O {
+    background-color: #1e88e5;
+    color: white;
+  }
+  
+  .square:hover {
+    background-color: #cfd8dc;
+    transform: scale(1.05);
+  }
+  
+  .game-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .move-button {
+    background-color: #0288d1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .move-button:hover {
+    background-color: #0277bd;
+  }
+   */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.game {
+  display: flex;
+}
+
+.game-board {
+  margin-right: 20px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+  background-color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.game-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-info button {
+  margin: 5px 0;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #000;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.game-info button:hover {
+  background-color: #e0e0e0;
+}
